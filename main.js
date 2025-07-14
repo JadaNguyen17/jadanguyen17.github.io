@@ -2,11 +2,11 @@ const myImage = document.querySelector("img");
 
 myImage.addEventListener("click", () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/focus-firefox.png") {
-    myImage.setAttribute("src", "images/firefox-purple-image.png");
-  } else {
-    myImage.setAttribute("src", "images/focus-firefox.png");
-  }
+  if (mySrc === "focus-firefox.png") { 
+    myImage.setAttribute("src", "firefox-purple-image.png");
+} else {
+    myImage.setAttribute("src", "focus-firefox.png");
+}
 });
 let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h1");
